@@ -1,0 +1,165 @@
+#modalbg
+{
+	position: fixed;height: 100%;
+	width:100%;background: black;
+	opacity: .5;z-index: 1;
+	margin: -8px 0px 0px -8px;
+	display: none;
+}
+#homestuff
+{
+	border: solid black 2px;
+	height: 85%;width:70%;
+	top: 10%;left: 15%;
+	position: absolute;
+}
+#friend_suggest_box
+{
+	border-radius: 5px;
+	height: 75%;width: 40%;
+	position: absolute;
+	left: 30%;top: 15%;
+	z-index: 1;background: white;
+	display: none;
+	box-shadow: 0 0 10px #000000;
+}
+#profileimage
+{
+	border-radius: 5px;
+	height: 50%;width: 60%;
+	position: absolute;
+	left: 20%;top: 15%;
+	z-index: 1;background: white;
+	display: none;
+	box-shadow: 0 0 10px #000000;
+}
+.image_shell
+{
+	border-radius: 5px;
+	height: 80%;width: 95%;
+	position: absolute;
+	left: 2.5%;top: 15%;
+	border: solid black 2px;
+}
+.image_habitat
+{
+	height: 92%;width: 30%;
+	position: absolute;
+	left: 2%;top: 4%;
+	border: solid brown 2px;
+}
+.image_choice
+{
+	border-radius: 5px;
+	height: 92%;width: 65%;
+	position: absolute;
+	left: 34%;top: 4%;
+	border: solid brown 2px;
+}
+#upldimg_table
+{
+	height: 100%;width: 100%;
+	font-family: cambria;
+	color: green;position: absolute;
+	text-align: center;
+	cursor: pointer;
+}
+#upldimg_table  td
+{
+	border: solid black 2px;
+}
+input[type="file"]
+{
+	display: none;
+}
+.image_legend
+{
+	position: absolute;
+	top: 7%;left: 2.5%;
+	font-family: cambria;
+	font-size: 20px;font-weight: bold;
+	color: brown;
+}
+.loadbar_shell
+{
+	position: absolute;
+	height: 5%;width: 15%;
+	border: solid black 2px;
+	left: 15%;border-radius: 5px;
+	display: none;
+
+}
+.loadbar
+{
+	height: 100%;width: 1%;
+	background: green;
+	position: absolute;
+}
+.suggest_display
+{
+	position: absolute;
+	height: 80%;width: 90%;
+	border-radius: 5px;border: solid black 2px;
+	top: 12%;left: 5%;
+	overflow-y: auto;
+}
+.welcome_message
+{
+	font-family: cambria;
+	position: absolute;top: 2%;
+	color: brown;font-size: 20px;
+	left: 5%;font-weight: bold;
+	text-align: center;width: 90%;
+}
+.friend_legend
+{
+	font-family: cambria;
+	position: absolute;top: 8%;
+	color: brown;font-size: 15px;
+	left: 5%;
+}
+#friend_suggest_table
+{
+	border: solid black 2px;
+	width: 95%;left: 2.5%;
+	position: absolute;
+	top: 2%;height: 20%;
+	border-radius: 5px;
+}
+.image_display
+{
+	position: absolute;
+	height: 17%;width: 15%;
+	border: solid brown 2px;
+	left: 3.5%;top: 3%;
+}
+.username
+{
+	left: 18%;position: absolute;
+	font-family: cambria;font-weight: bold;
+}
+.errorbox
+{
+	position: absolute;
+	top: 8%;right: 2.5%;
+	font-family: red;
+	color: brown;
+}
+.loadbar_counter
+{
+	position: absolute;
+	left: 15.6%;font-size: 11px;
+	top: 36.5%;font-family: cambria;
+	font-weight: bold;color:green;
+	display: none;
+}
+a
+{
+	text-decoration: none;
+	color:brown;
+	font-family: cambria;
+}
+.realtime_not
+{
+	color: red;font-weight: bold;
+}

@@ -1,0 +1,56 @@
+#not_display
+{
+	border: solid black 2px;
+	position: absolute;
+	height: 100%;width: 60%;
+	top: 10%;left: 20%;
+	border-radius: 5px;
+	overflow-y: auto;
+}
+#not_content
+{
+	position: absolute;
+	width: 90%;top: 5%;
+	left: 5%;font-family: cambria;
+	font-size: 16px;
+}
+.not_legend
+{
+	font-family: cambria;
+	font-size: 20px;
+	color: brown;
+	position: absolute;
+	left: 5%;font-weight: bold;
+	top: 1%;
+}
+#not_content th
+{
+	text-align: left;padding-top: 8px;
+	color:brown;font-size: 17px;
+}
+#acceptrequest
+{
+	background: white;
+	height: 20%;width: 40%;
+	position: absolute;
+	top: 30%;left: 28%;
+	z-index: 1;border-radius: 5px;
+	display: none;
+}
+.border-style
+{
+	border: solid black 2px;
+	height: 90%;width: 95%;
+	position: absolute;top: 2.5%;
+	left: 2.5%;border-radius: 5px;
+}
+#tbl_respond th
+{
+	color: brown;
+	text-align: center;font-weight: bolder;
+	font-size: 20px;
+}
+#tbl_respond
+{
+	width: 97%;font-family: cambria;
+}

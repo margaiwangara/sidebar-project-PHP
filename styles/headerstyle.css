@@ -1,0 +1,37 @@
+body
+{
+	background: white;
+}
+header
+{
+	height: 7%;width: 100%;
+	position: fixed;background: #FFFFCC;
+	margin: -8px 0 0 -8px;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+	color: brown;
+	font-family: cambria; 
+	z-index: 1;
+}
+header a
+{
+	text-decoration: none;
+	color: brown;
+}
+.links
+{
+	position: fixed;
+	top: 2%;left: 4.6%;
+}
+.profimage
+{
+	position: fixed;
+	height:5%;width: 3%;
+	border: solid grey thin;
+	top: 0.6%;left: 1%; 
+}
+.profimage img 
+{
+	height: 100%;width: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}

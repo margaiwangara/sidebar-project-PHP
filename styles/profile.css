@@ -1,0 +1,110 @@
+#imagearea
+{
+	position: absolute;
+	top: 10%;left: 20%;
+	border: solid black 2px;
+	border-radius: 5px;
+	height: 37%;width: 60%;
+	font-family: cambria;
+}
+#infoarea
+{
+	position: absolute;
+	top: 50%;left: 13%;
+	border: solid black 2px;
+	border-radius: 5px;
+	height: 100%;width: 75%;
+	overflow: scroll;
+	font-family: cambria;
+}
+.profileimage
+{
+	height: 70%;width: 21%;
+	position: absolute;
+	top: 5%;left: 37%;
+	border: solid black 2px;
+}
+.username_display
+{
+	position: absolute;
+	top: 79%;left: 35%;
+	font-weight: bold;
+	font-family: cambria;
+	width: 27%;text-align: center;
+	font-size: 25px;color: brown;
+}
+.userinfo
+{
+	position: absolute;
+	top: 2%;left: 2%;
+	border: solid black 2px;
+	height: 95%;width: 40%;
+	overflow-y: auto;
+}
+.postsarea
+{
+	position: absolute;
+	top: 2%;right: 2%;
+	border: solid black 2px;
+	border-bottom: none;
+	height: 100%;width: 53%;
+	overflow-y: auto;
+}
+.userinfo table
+{
+	text-align: left;
+	width: 100%;
+}
+#postsinput
+{
+	resize: none;
+	font-family: calibri;
+	font-size: 15px;
+}
+.postsarea table
+{
+	position: absolute;
+	top: 2%;left: 3%;
+}
+#tblprivacy
+{
+	position: absolute;
+	top: 19%;left: 3%;
+}
+.profileimage img
+{
+	height:100%;width:100%;
+	object-fit:cover;
+	cursor: pointer;
+}
+#postdisplay
+{
+	position: absolute;top: 27%;
+	width: 93%;
+	margin-left: 4px;
+	font-family: cambria;
+}
+#postdisplay th
+{
+	text-align: left;
+	font-weight: bold;
+	color: brown;
+	font-size: 17px;
+}
+.imageupload
+{
+	position: absolute;
+	bottom: 0;height: 15%;
+	width: 100%;background: black;
+	opacity: .7;z-index: 0;
+	display: none;
+}
+.imageupload table
+{
+	font-family: cambria;
+	color: white;
+	width: 100%;text-align: center;
+	font-size: 17px;font-weight: bolder;
+	cursor: pointer;
+}
+
